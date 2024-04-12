@@ -16,6 +16,7 @@
 		869693EA2BC935550094B55C /* VideoStreamingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869693E92BC935550094B55C /* VideoStreamingTests.swift */; };
 		869693F42BC935550094B55C /* VideoStreamingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869693F32BC935550094B55C /* VideoStreamingUITests.swift */; };
 		869693F62BC935550094B55C /* VideoStreamingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869693F52BC935550094B55C /* VideoStreamingUITestsLaunchTests.swift */; };
+		869694032BC94B970094B55C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869694022BC94B970094B55C /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		869693EF2BC935550094B55C /* VideoStreamingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoStreamingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		869693F32BC935550094B55C /* VideoStreamingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoStreamingUITests.swift; sourceTree = "<group>"; };
 		869693F52BC935550094B55C /* VideoStreamingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoStreamingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		869694022BC94B970094B55C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				869693D62BC935540094B55C /* ViewController.swift */,
 				869693D82BC935540094B55C /* Main.storyboard */,
 				869693DB2BC935550094B55C /* Assets.xcassets */,
+				869694022BC94B970094B55C /* Colors.xcassets */,
 				869693DD2BC935550094B55C /* LaunchScreen.storyboard */,
 				869693E02BC935550094B55C /* Info.plist */,
 			);
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				869693DF2BC935550094B55C /* LaunchScreen.storyboard in Resources */,
+				869694032BC94B970094B55C /* Colors.xcassets in Resources */,
 				869693DC2BC935550094B55C /* Assets.xcassets in Resources */,
 				869693DA2BC935540094B55C /* Main.storyboard in Resources */,
 			);
@@ -450,6 +454,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,6 +483,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
